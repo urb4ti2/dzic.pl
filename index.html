@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona Osobista</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Moja Strona Osobista</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#offer">Oferta</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Witaj na mojej stronie!</h2>
+            <p>Nazywam sie Mateusz Barasiński. Zajmuję się Detailingiem samochodowym i chciałbym podzielić się swoją pasją z innymi. Poniżej znajdziesz więcej informacji o mnie oraz o mojej ofercie.</p>
+            <div class="content">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsiL9y6naKvSk2xg7dSCRc1HZk2odRbItKsFiiRn2P217O3wXUhuAvA9P0FKL61x6OPQIYExMN-iu4-1JdIoOH5ohhMGYeyQJDCftyZMNjqg" alt="Zdjęcie autora" title="Moje zdjęcie" height="100px" width="80px">
+            </div>
+        </div>
+    </section>
+
+    <section id="offer">
+        <div class="container">
+            <h2>Moja Oferta</h2>
+            <p>Oferuję różnorodne usługi, które mogą Cię zainteresować. Zapraszam do zapoznania się z moją pełną ofertą.</p>
+            <ul>
+                <li>Podstawowe mycie i woskowanie - Usługa obejmuje dokładne umycie karoserii pojazdu z użyciem profesjonalnych środków,
+                     usunięcie zanieczyszczeń i brudu. Po umyciu nałożony zostaje wosk, który zabezpiecza lakier i nadaje mu połysk. 
+                    Dodatkowo czyszczone są felgi i opony, przywracając im świeży wygląd.</li>
+                <li>Detailing wnętrza i zewnętrza + polerowanie - Oprócz mycia i woskowania, usługa obejmuje 
+                    dokładne czyszczenie wnętrza pojazdu. Fotele, tapicerka, dywaniki i deska rozdzielcza są czyszczone oraz odkurzane. 
+                    Zewnętrzna część pojazdu poddawana jest również profesjonalnemu polerowaniu, 
+                    które usuwa drobne zarysowania i przywraca głęboki połysk lakieru.</li>
+                <li>Kompleksowy detailing premium (zewnętrzny i wewnętrzny + renowacja lakieru) - Najwyższej jakości usługa, która 
+                    obejmuje wszystko, co w poprzednich usługach. Dodatkowo wykonujemy pełną renowację lakieru, usuwamy głębsze 
+                    zarysowania oraz przywracamy blask za pomocą profesjonalnych preparatów. Wnętrze pojazdu jest nie tylko czyszczone,
+                     ale także pielęgnowane specjalistycznymi preparatami, które chronią tapicerkę przed zabrudzeniami i uszkodzeniami. 
+                    Dodatkowo na karoserii i wnętrzu wykonujemy powłokę ochronną, która zapewnia długotrwałą ochronę przed brudem i zarysowaniami.</li>
+            </ul>
+
+            <h3>Cennik usług</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usługa</th>
+                        <th>Cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Podstawowe mycie i woskowanie</td>
+                        <td>150zł </td>
+                    </tr>
+                    <tr>
+                        <td>Detailing wnętrza i zewnętrza + polerowanie</td>
+                        <td>250zł</td>
+                    </tr>
+                    <tr>
+                        <td>Kompleksowy detailing premium (zewnętrzny i wewnętrzny + renowacja lakieru)</td>
+                        <td>400zł</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Galeria</h2>
+            <p>Oto niektóre zdjęcia z moich projektów i działań. Zapraszam do obejrzenia!</p>
+            <div class="content">
+                <figure>
+                    <img src="https://www.autofinesse.com/cdn/shop/articles/Screenshot_202023-01-22_20at_2004.57.38_5608c592-a556-4e6b-9a61-a4e2dcd67442.png?v=1746011156&width=1920" alt="Projekt 1" title="Projekt 1" height="200px" width="300px">
+                    <figcaption>Auto zostało poddane pełnemu detailingowi. Zewnętrzna karoseria została dokładnie umyta,
+                         a następnie nałożono warstwę wosku ochronnego, który przywrócił głęboki połysk i zabezpieczył lakier przed 
+                         działaniem niekorzystnych czynników atmosferycznych. Na felgach zastosowano specjalistyczny preparat do 
+                         czyszczenia i zabezpieczania, który sprawił, że zyskały one nowy wygląd. Wnętrze pojazdu zostało starannie 
+                         wyczyszczone – tapicerka skórzana została odświeżona i nawoskowana, a dywaniki i fotele poddane praniu parowemu.
+                         Dodatkowo, przeprowadzono ozonowanie, eliminując nieprzyjemne zapachy. 
+                        Całość została wykończona aplikacją preparatu do detali, co nadało wnętrzu świeżości i połysku.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://studiocb.pl/blog/wp-content/uploads/2022/02/auto-detailing-czym-jest.jpg" alt="Projekt 2" title="Projekt 2" height="200px" width="300px">
+                    <figcaption>Czarny Rolls-Royce Cullinan przeszedł pełny detailing – karoseria została umyta, 
+                        polerowana i nałożono na nią warstwę wosku ochronnego, przywracając jej głęboki połysk. 
+                        Felgi zostały ręcznie wyczyszczone i zabezpieczone. Wnętrze wyczyszczono z najwyższą precyzją, 
+                        skórzana tapicerka została odświeżona i nawoskowana, a detale drewniane polerowane. 
+                        Całość zakończono ozonowaniem wnętrza i nałożeniem preparatów ochronnych, 
+                        nadających pojazdowi świeżość i elegancję.</figcaption>
+                </figure>
+                <figure>
+                    <iframe width="400px" height="300px" src="https://www.youtube.com/embed/0FBuuVNIQxc" title="CAR DETAILING | Dekontaminacja, Korekta lakieru i Aplikacja Ceramiki" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                    <figcaption>Samochód przed i po kompleksowym detailingu. Przed zabiegiem karoseria była matowa i 
+                        zanieczyszczona, a wnętrze wymagało gruntownego czyszczenia. Po wykonaniu usługi, 
+                        karoseria odzyskała głęboki połysk dzięki dokładnemu myciu, polerowaniu i nałożeniu wosku ochronnego. 
+                        Felgi zostały starannie wyczyszczone i zabezpieczone. Wnętrze pojazdu zostało odświeżone – 
+                        tapicerka skórzana została wyczyszczona i nawoskowana, a dywaniki i fotele poddane praniu parowemu. 
+                        Całość dopełniło ozonowanie, które usunęło nieprzyjemne zapachy, pozostawiając wnętrze świeże i pachnące.</figcaption>
+            </div>
+        </div>
+    </section>
+     <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Jeśli masz jakiekolwiek pytania, skontaktuj się ze mną za pomocą formularza poniżej.</p>
+            <form action="mailto:mbarasinski.ti222@zsp1piotrkow.edu.pl" method="post" enctype="text/plain">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Wiadomość:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Wyślij</button> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </form>
+        </div> 
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 Mateusz Barasiński. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
